@@ -1,0 +1,40 @@
+{
+    "wnd_size": 20,
+    "critical_inactive_size": 60,
+    "num_of_wnd": 41,
+    "job_tail": 2,
+    "offset_from_end": 10,
+    "EPS": 1e-12,
+    "total_sensors_num": 16,
+    "gpu_load_idx": 15,
+
+    "best_sensor_combination": [0, 1, 5, 11],
+    "job_hang_active_wnd_num": 0,
+    "cold_start_active_wnd_num": 15,
+
+    "sensor_names": [
+        "l1_cache_miss",
+        "llc_cache_miss",
+        "mem_load",
+        "cpu_user",
+        "mem_store",
+        "ib_rcv_data",
+        "ib_rcv_pckts",
+        "ib_xmit_data",
+        "ib_xmit_pckts",
+        "loadavg",
+        "cpu_nice",
+        "ib_rcv_data_fs",
+        "ib_rcv_pckts_fs",
+        "ib_xmit_data_fs",
+        "ib_xmit_pckts_fs",
+        "gpu_load",
+        "gpu_mem_load",
+        "gpu_mem_usage"
+    ],
+
+    "job_hang_borders": {
+        "normal": {},
+        "abnormal": {}
+    }
+}
